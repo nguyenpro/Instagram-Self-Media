@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InstaFeed</string>
+    <string name="txt_just_now">Just Now</string>
+    <string name="txt_minutes_ago">%1$d min%2$s ago</string>
+</resources>

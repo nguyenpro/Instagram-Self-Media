@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.npc.instafeed.ui.start.LoginActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.npc.instafeed.ui.custom.FontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Instagram Feeds"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"/>
+            </FrameLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_insta"
+        android:drawablePadding="10dp"
+        android:background="@drawable/button_bg"
+        android:layout_centerInParent="true"
+        android:text="Login to Instagram"
+        android:textAllCaps="false"
+        android:id="@+id/btnLogin"
+        android:textColor="@color/colorPrimary"
+        android:padding="5dp"
+        />
+</RelativeLayout>
